@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="js/srcipt.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container" id="container">
+            <form class="form__app" id="formApp">
+                <input type="text" class="input__app" placeholder="Введите свой город" id="inputApp">
+                <button class="btn__app"><img src="img/Logo.svg" alt=""></button>
+            </form>
+            <!-- <div class="weather__info">
+                <div class="weather__main block">
+                    <div class="img__value">
+                        <div class="img__top">
+                            <div class="img__top-left">
+                                <div class="img__city">
+                                    <div class="city-value" id="cityValue">
+                                        Екатеринбург,&nbsp;
+                                    </div>
+                                    <div class="country-value" id="countryValue">
+                                        Россия
+                                    </div>
+                                </div>
+                                <div class="img__date">
+                                    <div class="day-value" id="dayValue">
+                                        Понедельник,&nbsp;
+                                    </div>
+                                    <div class="date-value" id="dateValue">
+                                        10 октября 2003
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="time-value" id="timeValue">
+                                21:39
+                            </div>
+                        </div>  
+                        <div class="img__bottom">
+                            <div class="img__bottom-left">
+                                <div class="temp__value">
+                                    28ºc
+                                </div>
+                                <div class="weather__temp">
+                                    <div class="fell__value">
+                                        26ºc
+                                    </div>
+                                    <span></span>
+                                    <div class="cloud__value">
+                                        Облачно
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logo__value">
+                                <img src="//cdn.weatherapi.com/weather/128x128/night/116.png" alt="" class="logo__weather">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="weather__secondary block">
+                    <h2 class="title__weather">
+                        Информация о погоде сегодня
+                    </h2>
+                    <ul class="weather__list">
+                        <li class="weather__item">
+                            <div class="weather__left">
+                                <img src="img/temp.svg" alt="" class="svg__weather">
+                                <h3 class="weather__title">
+                                    Ощущается как 
+                                </h3>
+                            </div>
+                            <div class="weather__value">
+                                26ºC
+                            </div>
+                        </li>
+                        <li class="weather__item">
+                            <div class="weather__left">
+                                <img src="img/cloud.svg" alt="" class="svg__weather">
+                                <h3 class="weather__title">
+                                    Вероятность дождя
+                                </h3>
+                            </div>
+                            <div class="weather__value">
+                                0%
+                            </div>
+                        </li>
+                        <li class="weather__item">
+                            <div class="weather__left">
+                                <img src="img/wind.svg" alt="" class="svg__weather">
+                                <h3 class="weather__title">
+                                    Скорость ветра
+                                </h3>
+                            </div>
+                            <div class="weather__value">
+                                8 км/ч
+                            </div>
+                        </li>
+                        <li class="weather__item">
+                            <div class="weather__left">
+                                <img src="img/drop.svg" alt="" class="svg__weather">
+                                <h3 class="weather__title">
+                                    Влажность воздуха
+                                </h3>
+                            </div>
+                            <div class="weather__value">
+                                40%
+                            </div>
+                        </li>
+                        <li class="weather__item">
+                            <div class="weather__left">
+                                <img src="img/sun.svg" alt="" class="svg__weather">
+                                <h3 class="weather__title">
+                                    Уф-индекс 
+                                </h3>
+                            </div>
+                            <div class="weather__value">
+                                5
+                            </div>
+                        </li>
+                        <li class="weather__item">
+                            <div class="weather__left">
+                                <img src="img/3305016.svg" alt="" class="svg__weather">
+                                <h3 class="weather__title">
+                                    Уф-индекс 
+                                </h3>
+                            </div>
+                            <div class="weather__value">
+                                5
+                            </div>
+                        </li>
+                        <li class="weather__item">
+                            <div class="weather__left">
+                                <img src="img/eye-3-svgrepo-com.svg" alt="" class="svg__weather">
+                                <h3 class="weather__title">
+                                    Уф-индекс 
+                                </h3>
+                            </div>
+                            <div class="weather__value">
+                                5
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="weather__days">
+                <div class="weather__img">
+                    <img class="sun__solstice" alt="">
+                    <div class="weather__solstice">
+                        <div class="weather__sunrise">
+                            12:00
+                        </div>
+                        <div class="weather__sunset">
+                            12:00
+                        </div>
+                    </div>
+                </div>
+                <div class="weather__3days">
+                    <h2 class="days__title">
+                        Прогноз на день
+                    </h2>
+                    <ul class="days__list">
+                        <li class="days__item">
+                            <h3 class="days__item-title">
+                                12:00
+                            </h3>
+                            <div class="days__logo">
+                                <img src="//cdn.weatherapi.com/weather/64x64/night/116.png" alt="">
+                            </div>
+                            <div class="days__down">
+                                <div class="max__temp">
+                                    32ºc
+                                </div>
+                            </div>
+                        </li>
+                        <li class="days__item">
+                            <h3 class="days__item-title">
+                                12:00
+                            </h3>
+                            <div class="days__logo">
+                                <img src="//cdn.weatherapi.com/weather/64x64/night/116.png" alt="">
+                            </div>
+                            <div class="days__down">
+                                <div class="max__temp">
+                                    32ºc
+                                </div>
+                            </div>
+                        </li>
+                        <li class="days__item">
+                            <h3 class="days__item-title">
+                                12:00
+                            </h3>
+                            <div class="days__logo">
+                                <img src="//cdn.weatherapi.com/weather/64x64/night/116.png" alt="">
+                            </div>
+                            <div class="days__down">
+                                <div class="max__temp">
+                                    32ºc
+                                </div>
+                            </div>
+                        </li>
+                        <li class="days__item">
+                            <h3 class="days__item-title">
+                                12:00
+                            </h3>
+                            <div class="days__logo">
+                                <img src="//cdn.weatherapi.com/weather/64x64/night/116.png" alt="">
+                            </div>
+                            <div class="days__down">
+                                <div class="max__temp">
+                                    32ºc
+                                </div>
+                            </div>
+                        </li>
+                        <li class="days__item">
+                            <h3 class="days__item-title">
+                                12:00
+                            </h3>
+                            <div class="days__logo">
+                                <img src="//cdn.weatherapi.com/weather/64x64/night/116.png" alt="">
+                            </div>
+                            <div class="days__down">
+                                <div class="max__temp">
+                                    32ºc
+                                </div>
+                            </div>
+                        </li>
+                        <li class="days__item">
+                            <h3 class="days__item-title">
+                                12:00
+                            </h3>
+                            <div class="days__logo">
+                                <img src="//cdn.weatherapi.com/weather/64x64/night/116.png" alt="">
+                            </div>
+                            <div class="days__down">
+                                <div class="max__temp">
+                                    32ºc
+                                </div>
+                            </div>
+                        </li>
+                        <li class="days__item">
+                            <h3 class="days__item-title">
+                                12:00
+                            </h3>
+                            <div class="days__logo">
+                                <img src="//cdn.weatherapi.com/weather/64x64/night/116.png" alt="">
+                            </div>
+                            <div class="days__down">
+                                <div class="max__temp">
+                                    32ºc
+                                </div>
+                            </div>
+                        </li>
+                        <li class="days__item">
+                            <h3 class="days__item-title">
+                                12:00
+                            </h3>
+                            <div class="days__logo">
+                                <img src="//cdn.weatherapi.com/weather/64x64/night/116.png" alt="">
+                            </div>
+                            <div class="days__down">
+                                <div class="max__temp">
+                                    32ºc
+                                </div>
+                            </div>
+                        </li>
+                        <li class="days__item">
+                            <h3 class="days__item-title">
+                                12:00
+                            </h3>
+                            <div class="days__logo">
+                                <img src="//cdn.weatherapi.com/weather/64x64/night/116.png" alt="">
+                            </div>
+                            <div class="days__down">
+                                <div class="max__temp">
+                                    32ºc
+                                </div>
+                            </div>
+                        </li>
+                        <li class="days__item">
+                            <h3 class="days__item-title">
+                                12:00
+                            </h3>
+                            <div class="days__logo">
+                                <img src="//cdn.weatherapi.com/weather/64x64/night/116.png" alt="">
+                            </div>
+                            <div class="days__down">
+                                <div class="max__temp">
+                                    32ºc
+                                </div>
+                            </div>
+                        </li>
+                        <li class="days__item">
+                            <h3 class="days__item-title">
+                                12:00
+                            </h3>
+                            <div class="days__logo">
+                                <img src="//cdn.weatherapi.com/weather/64x64/night/116.png" alt="">
+                            </div>
+                            <div class="days__down">
+                                <div class="max__temp">
+                                    32ºc
+                                </div>
+                            </div>
+                        </li>
+                        <li class="days__item">
+                            <h3 class="days__item-title">
+                                12:00
+                            </h3>
+                            <div class="days__logo">
+                                <img src="//cdn.weatherapi.com/weather/64x64/night/116.png" alt="">
+                            </div>
+                            <div class="days__down">
+                                <div class="max__temp">
+                                    32ºc
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</body>
+</html>
