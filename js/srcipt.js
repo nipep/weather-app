@@ -239,7 +239,7 @@ function HTMLCard({
                     ${timeV1}
                 </h3>
                 <div class="days__logo">
-                    <img src="./img/weather${logoV1}" alt="">
+                    <img src="./weather${logoV1}" alt="">
                 </div>
                 <div class="days__down">
                     <div class="max__temp">
@@ -252,7 +252,7 @@ function HTMLCard({
                     ${timeV2}
                 </h3>
                 <div class="days__logo">
-                    <img src="./img/weather/${logoV2}" alt="">
+                    <img src="./weather/${logoV2}" alt="">
                 </div>
                 <div class="days__down">
                     <div class="max__temp">
@@ -265,7 +265,7 @@ function HTMLCard({
                     ${timeV3}
                 </h3>
                 <div class="days__logo">
-                    <img src="./img/weather/${logoV3}" alt="">
+                    <img src="./weather/${logoV3}" alt="">
                 </div>
                 <div class="days__down">
                     <div class="max__temp">
@@ -278,7 +278,7 @@ function HTMLCard({
                     ${timeV4}
                 </h3>
                 <div class="days__logo">
-                    <img src="./img/weather/${logoV4}" alt="">
+                    <img src="./weather/${logoV4}" alt="">
                 </div>
                 <div class="days__down">
                     <div class="max__temp">
@@ -291,7 +291,7 @@ function HTMLCard({
                     ${timeV5}
                 </h3>
                 <div class="days__logo">
-                    <img src="./img/weather/${logoV5}" alt="">
+                    <img src="./weather/${logoV5}" alt="">
                 </div>
                 <div class="days__down">
                     <div class="max__temp">
@@ -304,7 +304,7 @@ function HTMLCard({
                     ${timeV6}
                 </h3>
                 <div class="days__logo">
-                    <img src="./img/weather/${logoV6}" alt="">
+                    <img src="./weather/${logoV6}" alt="">
                 </div>
                 <div class="days__down">
                     <div class="max__temp">
@@ -317,7 +317,7 @@ function HTMLCard({
                     ${timeV7}
                 </h3>
                 <div class="days__logo">
-                    <img src="./img/weather/${logoV7}" alt="">
+                    <img src="./weather/${logoV7}" alt="">
                 </div>
                 <div class="days__down">
                     <div class="max__temp">
@@ -330,7 +330,7 @@ function HTMLCard({
                     ${timeV8}
                 </h3>
                 <div class="days__logo">
-                    <img src="./img/weather/${logoV8}" alt="">
+                    <img src="./weather/${logoV8}" alt="">
                 </div>
                 <div class="days__down">
                     <div class="max__temp">
@@ -343,7 +343,7 @@ function HTMLCard({
                     ${timeV9}
                 </h3>
                 <div class="days__logo">
-                    <img src="./img/weather/${logoV9}" alt="">
+                    <img src="./weather/${logoV9}" alt="">
                 </div>
                 <div class="days__down">
                     <div class="max__temp">
@@ -356,7 +356,7 @@ function HTMLCard({
                     ${timeV10}
                 </h3>
                 <div class="days__logo">
-                    <img src="./img/weather/${logoV10}" alt="">
+                    <img src="./weather/${logoV10}" alt="">
                 </div>
                 <div class="days__down">
                     <div class="max__temp">
@@ -369,7 +369,7 @@ function HTMLCard({
                     ${timeV11}
                 </h3>
                 <div class="days__logo">
-                    <img src="./img/weather/${logoV11}" alt="">
+                    <img src="./weather/${logoV11}" alt="">
                 </div>
                 <div class="days__down">
                     <div class="max__temp">
@@ -382,7 +382,7 @@ function HTMLCard({
                     ${timeV12}
                 </h3>
                 <div class="days__logo">
-                    <img src="./img/weather/${logoV12}" alt="">
+                    <img src="./weather/${logoV12}" alt="">
                 </div>
                 <div class="days__down">
                     <div class="max__temp">
