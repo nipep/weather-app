@@ -401,10 +401,10 @@ function changeBackground() {
   const weatherBackground = document.querySelector("#weatherMain");
   const sunCondition = document.querySelector("#sunSolstice");
   if (data.current.is_day == 1) {
-    weatherBackground.style.backgroundImage = "url(/img/day.jpg)";
+    weatherBackground.style.backgroundImage = "url(./img/day.jpg)";
     sunCondition.setAttribute("src", "img/sun.png");
   } else {
-    weatherBackground.style.backgroundImage = "url(/img/night.png)";
+    weatherBackground.style.backgroundImage = "url(./img/night.png)";
     sunCondition.setAttribute("src", "img/moon.png");
   }
 }
